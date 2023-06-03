@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mensajeEleccion {
+    background-color: blue;
+    color: white;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.cuadroPuntaje{
+    display: grid;
+
+    border: 2px black dashed;
+    border-radius: 5px;
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 5px;
+}
+
+.juego{
+    display: grid;
+    
+    background-color: #F7F0F0;
+}
+
+.juego button{
+    background-color: #C8EAD3;
+    border-radius: 8px;
+    margin: 5px 15px;
+}
+
+.juego button:hover{
+    background-color: #3C493F;
+    color: #CEEC97;
+    border-color: #CEEC97;
+}
+
+#mensajeEleccion{
+    margin: 10px 0px;
+    text-align: center;
+}
+
+#btn_reiniciar{
+    background-color: #7E8D85;
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+#btn_reiniciar:hover{
+    background-color: #A2E3C4;
+    color: black;
+    border: 2px solid #7E8D85;
+}
+
+#imagenInicial{
+    width: 350px;
+    height: 285px;
+}
+
+#mainTitle{
+    text-align: center;
+}
